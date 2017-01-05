@@ -12,6 +12,11 @@
 #define MCU_TYPE 0
 
 ///////////////////////////////////////////////
+// English -----------------------------------------------------
+// PS2 keyboard timings, MAX=25
+// the higher oscillator frequency, the higher the value
+// not all controllers support oscillators >20MHz but many can support 24MHz, and some can up to 40MHz, but it is rare...
+// Russian -----------------------------------------------------
 // Коэффициент таймингов PS2 клавиатуры, MAX=25
 // чем выше частота кварца, тем больше коэффициент и наоборот
 // не все контроллеры могут работать с кварцами более 20МГц, т.к. Atmega8-16PU, 16Мгц :-D
